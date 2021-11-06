@@ -26,10 +26,14 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .main {
     flex: 1 0 auto;
+    display: inline-block;
+    margin-left: 100px;
+    max-width: 1000px;
 }
 
 .header, .footer {
@@ -45,10 +49,15 @@ body {
 
 .logo-image {
     max-width: 300px;
+    margin-left: 30px;
 }
 
 
 /* Title */
+
+.title {
+    margin-top: 100px;
+}
 
 .title, .logo {
     padding: 3em 3em 3em 0;

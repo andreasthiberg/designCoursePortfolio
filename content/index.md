@@ -3,7 +3,7 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Hej!
 ==========================
 
 Jag heter Andreas och är från Stockholm. Jag har tidigare läst olika
