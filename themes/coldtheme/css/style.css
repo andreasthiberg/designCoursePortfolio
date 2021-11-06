@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: white;
 }
 
 * {
@@ -42,6 +42,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.logo-image {
+    max-width: 300px;
+}
+
 
 /* Title */
 
