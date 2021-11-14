@@ -1,6 +1,6 @@
 ---
 Title: Hobby
-Description: Page about by hobby.
+Description: Page about my hobby.
 ---
 
 Min hobby.

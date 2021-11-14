@@ -1,13 +1,147 @@
-@import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
 
+@import '../../node_modules/normalize.css/normalize';
+
+@import 'variables';
 @import 'blockquotes';
 @import 'code';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 body {
     background-color: $background-color;
 }
 
 * {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main {
+    flex: 1 0 auto;
+    display: inline-block;
+    margin-left: 100px;
+    max-width: 1000px;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image {
+    max-width: 300px;
+    margin-left: 30px;
+}
+
+
+/* Title */
+
+.title {
+    margin-top: 100px;
+}
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+}
+
+.footer a {
+    color: #222;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+/* Typografy */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #444;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
     color: $font-color;
+}
+
+img {
+    max-width: 100%;
 }
