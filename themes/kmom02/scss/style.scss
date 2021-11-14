@@ -9,7 +9,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'variables';
 @import 'blockquotes';
 @import 'code';
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 body {
@@ -37,19 +36,21 @@ body {
     display: inline-block;
     margin-left: 100px;
     max-width: 1000px;
+    padding-right: 50px;
+
+    img {
+        margin-top: 30px;
+    }
 }
 
-.header,
 .footer {
     flex: 0 0 auto;
 }
 
 /* Header */
 
-.header,
 .site-header {
     display: flex;
-    justify-content: space-between;
 }
 
 .logo-image {
@@ -58,31 +59,46 @@ body {
 }
 
 
+/* Navbar */
+
+.active {
+    border-bottom: solid;
+}
+
+.nav-bar {
+    color: #fff;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $nav-footer-color;
+    margin-bottom: 40px;
+
+    li {
+        display: inline;
+        font-size: 1.3em;
+        margin-right: 10px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/* li:hover {
+    border-color:#fff;
+    
+    a {
+        color: #fff;
+    }
+}
+
+ */
 /* Title */
 
 .title {
     margin-top: 100px;
 }
 
-.title,
-.logo {
-    padding: 3em 3em 3em 0;
-}
-
-@media (max-width: 767px) {
-    .title,
-    .logo {
-        padding: 1em 1em 1em 0;
-    }
-
-    .title {
-        min-width: 50%;
-    }
-    
-    .logo {
-        max-width: 30%;
-    }
-}
 
 .title * {
     color: #111;
@@ -97,21 +113,23 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    padding: 20px;
+    background-color: $nav-footer-color;
+    margin-top: 50px;
 }
 
 .footer a {
     color: #222;
 }
 
-.footer .social {
-    font-size: 2rem;
-}
-
 /* Typografy */
 
+* {
+    font-family: 'Roboto', sans-serif;
+    color: $font-color;
+}
+
 body {
-    font-family: sans-serif;
     line-height: 1.5rem;
     color: #444;
 }
@@ -137,11 +155,8 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
-    color: $font-color;
-}
-
 img {
     max-width: 100%;
 }
+
+@import 'media-queries';
