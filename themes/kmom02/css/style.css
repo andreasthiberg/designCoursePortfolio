@@ -6487,6 +6487,34 @@ pre code {
   line-height: 1.4;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.technologies {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.technologies h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.tech-box.project {
+  grid-column: span 3;
+}
+
 body {
   background-color: #fff;
 }
@@ -6551,13 +6579,16 @@ body {
 .nav-bar a {
   text-decoration: none;
 }
-.nav-bar li:hover {
-  border-color: #fff;
-}
-.nav-bar li:hover a {
-  color: #fff;
+
+/* li:hover {
+    border-color:#fff;
+
+    a {
+        color: #fff;
+    }
 }
 
+ */
 /* Title */
 .title {
   margin-top: 100px;

@@ -1,0 +1,13 @@
+.technologies {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.technologies h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.tech-box.project {
+    grid-column: span 3;
+}
