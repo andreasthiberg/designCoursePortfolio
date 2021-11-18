@@ -1,3 +1,9 @@
+---
+Title: Python
+Description: Page for Python.
+Template: technology
+---
+
 # Python
 
 Python är ett programmeringsspråk som lanserades 1991 av Guido van Rossum. Programmeringsspråket är dynamiskt typad och betecknas som ett generellt programmeringsspråk då det kan tillämpas inom många domäner.

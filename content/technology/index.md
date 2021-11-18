@@ -1,6 +1,6 @@
 ---
-Title: Technology
-Description: This is our index page.
+Title: Teknologier
+Description: Different technologies
 Template: technologies
 ---
 
@@ -8,29 +8,29 @@ Teknologier
 ==========================
 
 <div class="tech-box">
-Kmom01
+<a href="technology/css">Css</a>
 </div>
 
 <div class="tech-box">
-Kmom02
+<a href="technology/git">Git</a>
 </div>
 
 <div class="tech-box">
-Kmom03
+<a href="technology/html">Html</a>
 </div>
 
 <div class="tech-box">
-Kmom04
+<a href="technology/javascript">Javascript</a>
 </div>
 
 <div class="tech-box">
-Kmom05
+<a href="technology/php">PHP</a>
 </div>
 
 <div class="tech-box">
-Kmom06
+<a href="technology/python">Python</a>
 </div>
 
 <div class="tech-box tech-project">
-Kmom10
+<a href="technology/sqlite">Sqlite</a>
 </div>

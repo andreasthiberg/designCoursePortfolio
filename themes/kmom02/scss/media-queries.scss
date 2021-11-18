@@ -12,9 +12,33 @@
     .nav-bar {
         text-align: center;
         padding-left: 0;
+        font-size: 0.7em;
     }
 
     .main {
         margin-left: 50px;
     }
+
+    /* Technologies page */
+
+    .technologies h1 {
+        grid-column: span 1;
+        justify-self: center;
+    }
+    
+    .tech-project {
+        grid-column: span 1;
+    }
+
+    /* Single technology page */ 
+
+    .technology-content {
+        grid-column: 1;
+    }
+
+    .technology-sidebar {
+        display: none;
+    }
 }
+
+

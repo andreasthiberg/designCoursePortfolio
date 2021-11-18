@@ -8,6 +8,41 @@
     justify-self: center;
 }
 
-.tech-box.project {
+.tech-box {
+    background-color: rgb(75, 75, 75);
+    padding: 20px 0 20px 10px;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.tech-project {
     grid-column: span 3;
+}
+
+/* Single technology page */ 
+
+.single-technology {
+    display: grid;
+}
+
+.technology-content {
+    grid-column: 2;
+}
+
+.technology-sidebar {
+    width: 200px;
+    grid-column: 1;
+
+    li {
+        list-style-type: none;
+        padding: 5px;
+    }
+
+    li a {
+        text-decoration: none;
+        font-weight: bold;
+    }
 }
