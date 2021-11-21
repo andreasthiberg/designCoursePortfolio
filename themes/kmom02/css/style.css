@@ -6504,6 +6504,7 @@ pre code {
 .technologies {
   display: grid;
   gap: 1em 1em;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .technologies h1 {
@@ -6512,12 +6513,13 @@ pre code {
 }
 
 .tech-box {
-  background-color: #4b4b4b;
-  padding: 20px 0px 20px 10px;
-  border-radius: 4%;
+  text-align: center;
+  background-color: #224763;
+  padding: 20px 0 20px 10px;
+  font-size: 24px;
 }
 .tech-box a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -6528,6 +6530,7 @@ pre code {
 /* Single technology page */
 .single-technology {
   display: grid;
+  gap: 2em;
 }
 
 .technology-content {
@@ -6535,8 +6538,11 @@ pre code {
 }
 
 .technology-sidebar {
+  font-size: 20px;
+  padding: 10px;
   width: 200px;
   grid-column: 1;
+  background-color: #224763;
 }
 .technology-sidebar li {
   list-style-type: none;
@@ -6544,7 +6550,7 @@ pre code {
 }
 .technology-sidebar li a {
   text-decoration: none;
-  font-weight: bold;
+  color: #fff;
 }
 
 body {
@@ -6613,10 +6619,10 @@ body {
 }
 
 .nav-bar > ul > li:hover {
-  color: white;
+  color: #fff;
 }
 .nav-bar > ul > li:hover a {
-  color: white;
+  color: #fff;
 }
 
 /* Title */
@@ -6702,6 +6708,10 @@ img {
   }
 
   /* Technologies page */
+  .technologies {
+    grid-template-columns: 1fr;
+  }
+
   .technologies h1 {
     grid-column: span 1;
     justify-self: center;

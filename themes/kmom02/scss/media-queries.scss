@@ -20,6 +20,9 @@
     }
 
     /* Technologies page */
+    .technologies {
+        grid-template-columns: 1fr;
+    }
 
     .technologies h1 {
         grid-column: span 1;
