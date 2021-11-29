@@ -8,7 +8,7 @@
         <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
         {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-            <i class="{{ social.icon }}" aria-hidden="true"></i>
+            <i class="{{ social.icon }} icon" aria-hidden="true"></i>
             <span class="sr-only">{{ social.title }}</span>
         </a>
         {% endfor %}

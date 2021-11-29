@@ -1,6 +1,6 @@
 ---
 Logo: image/logo.png
-Tagline: My portfolio.
+Tagline: Min portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/andreasthiberg/designCoursePortfolio
@@ -8,4 +8,10 @@ Social:
     - title: Länk till email.
       url: mailto:andreas.thiberg@gmail.com
       icon: fas fa-envelope-square
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
