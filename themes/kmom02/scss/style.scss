@@ -115,6 +115,10 @@ li a:hover {
     font-style: italic;
 }
 
+.title a h1 {
+    margin-bottom: 0;
+}
+
 
 /* Footer */
 
@@ -128,18 +132,17 @@ li a:hover {
 }
 
 .footer p {
-    color: $font-color;
+    color: #fff;
 }
 
 .footer a {
-    color: $font-color;
+    color: #fff;
 }
 
 /* Typografy */
 
 * {
     font-family: 'Roboto', sans-serif;
-    color: $font-color;
 }
 
 body {
@@ -164,7 +167,7 @@ h4,
 h5,
 h6 {
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.6em;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     line-height: normal;

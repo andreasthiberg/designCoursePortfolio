@@ -6646,6 +6646,10 @@ li a:hover {
   font-style: italic;
 }
 
+.title a h1 {
+  margin-bottom: 0;
+}
+
 /* Footer */
 .footer {
   bottom: 0;
@@ -6692,7 +6696,7 @@ h4,
 h5,
 h6 {
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.6em;
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
   line-height: normal;
