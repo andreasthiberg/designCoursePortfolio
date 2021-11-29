@@ -23,6 +23,7 @@ body {
     border: 0 none;
     margin: 0;
     padding: 0;
+    color: $font-color;
 }
 
 
@@ -40,6 +41,8 @@ body {
     margin-left: 100px;
     max-width: 1000px;
     padding-right: 50px;
+    color: $font-color;
+    margin-bottom: 50px;
 
     img {
         margin-top: 30px;
@@ -54,12 +57,15 @@ body {
 
 .site-header {
     display: flex;
-    background-color: #fff;
+    background-color: $background-color;
 }
 
 .logo-image {
-    max-width: 300px;
+    max-width: 100px;
+    margin-top: 50px;
     margin-left: 30px;
+    margin-bottom: 20px;
+    display: inline;
 }
 
 
@@ -79,9 +85,9 @@ li {
   
 li a {
     display: block;
-    color: white;
+    color: $font-color;
     text-align: center;
-    padding: 15px 15px;
+    padding: 15px;
     text-decoration: none;
 }
   
@@ -96,12 +102,13 @@ li a:hover {
 /* Title */
 
 .title {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
 
 .title * {
-    color: #111;
+    color: $font-color;
     text-decoration: none;
 }
 
@@ -121,8 +128,12 @@ li a:hover {
     margin-top: auto;
 }
 
+.footer p {
+    color: $font-color;
+}
+
 .footer a {
-    color: #222;
+    color: $font-color;
 }
 
 /* Typografy */
@@ -161,13 +172,14 @@ h6 {
 
 img {
     max-width: 100%;
+    filter: opacity(75%);
 }
 
 .icon {
     width: 30px;
 }
 
-.social {
+.social {
     display: flex;
 }
 

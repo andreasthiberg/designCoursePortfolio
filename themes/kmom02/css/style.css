@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6465,7 +6464,6 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6475,7 +6473,6 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
 }
 
 pre code {
@@ -6515,7 +6512,7 @@ pre code {
 
 .tech-box {
   text-align: center;
-  background-color: #AD401A;
+  background-color: #8f1f00;
   padding: 20px 0 20px 10px;
   font-size: 24px;
 }
@@ -6555,7 +6552,7 @@ pre code {
 }
 
 body {
-  background-color: #EBF2F1;
+  background-color: #f2faf9;
   min-height: 100vh;
 }
 
@@ -6564,6 +6561,7 @@ body {
   border: 0 none;
   margin: 0;
   padding: 0;
+  color: #000;
 }
 
 /* Placement */
@@ -6579,6 +6577,8 @@ body {
   margin-left: 100px;
   max-width: 1000px;
   padding-right: 50px;
+  color: #000;
+  margin-bottom: 50px;
 }
 .main img {
   margin-top: 30px;
@@ -6591,12 +6591,15 @@ body {
 /* Header */
 .site-header {
   display: flex;
-  background-color: #fff;
+  background-color: #f2faf9;
 }
 
 .logo-image {
-  max-width: 300px;
+  max-width: 100px;
+  margin-top: 50px;
   margin-left: 30px;
+  margin-bottom: 20px;
+  display: inline;
 }
 
 /* Navbar */
@@ -6604,7 +6607,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #27AD90;
+  background-color: #005247;
   height: 54px;
 }
 
@@ -6614,27 +6617,28 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #000;
   text-align: center;
-  padding: 15px 15px;
+  padding: 15px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #AD401A;
+  background-color: #8f1f00;
 }
 
 .active {
-  background-color: #AD401A;
+  background-color: #8f1f00;
 }
 
 /* Title */
 .title {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 .title * {
-  color: #111;
+  color: #000;
   text-decoration: none;
 }
 
@@ -6648,12 +6652,16 @@ li a:hover {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #27AD90;
+  background-color: #005247;
   margin-top: auto;
 }
 
+.footer p {
+  color: #000;
+}
+
 .footer a {
-  color: #222;
+  color: #000;
 }
 
 /* Typografy */
@@ -6691,13 +6699,14 @@ h6 {
 
 img {
   max-width: 100%;
+  filter: opacity(75%);
 }
 
 .icon {
   width: 30px;
 }
 
-.social  {
+.social {
   display: flex;
 }
 

@@ -6,7 +6,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../node_modules/normalize.css/normalize';
 
-@import 'variables';
+@import 'variables-dark';
 @import 'blockquotes';
 @import 'code';
 @import 'report';
@@ -15,6 +15,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 body {
     background-color: $background-color;
+    min-height: 100vh;
 }
 
 * {
@@ -22,6 +23,7 @@ body {
     border: 0 none;
     margin: 0;
     padding: 0;
+    color: $font-color;
 }
 
 
@@ -39,6 +41,8 @@ body {
     margin-left: 100px;
     max-width: 1000px;
     padding-right: 50px;
+    color: $font-color;
+    margin-bottom: 50px;
 
     img {
         margin-top: 30px;
@@ -53,74 +57,83 @@ body {
 
 .site-header {
     display: flex;
+    background-color: $background-color;
 }
 
 .logo-image {
-    max-width: 300px;
+    max-width: 100px;
+    margin-top: 50px;
     margin-left: 30px;
+    margin-bottom: 20px;
+    display: inline;
 }
 
 
 /* Navbar */
 
-.active {
-    border-bottom: solid;
-}
-
-.nav-bar {
-    color: #fff;
-    padding-left: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     background-color: $nav-footer-color;
-    margin-bottom: 40px;
+    height: 54px;
+} 
 
-    li {
-        display: inline;
-        font-size: 1.3em;
-        margin-right: 10px;
-    }
-
-    a {
-        text-decoration: none;
-    }
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: $font-color;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: $accent-color;
 }
 
-.nav-bar > ul > li:hover {
-    color: #fff;
-    
-    a {
-        color: #fff;
-    }
+.active {
+    background-color: $accent-color;
 }
 
 /* Title */
 
 .title {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
 
 .title * {
-    color: #111;
+    color: $font-color;
+    text-decoration: none;
 }
 
 .title p {
     font-style: italic;
 }
 
+
 /* Footer */
 
 .footer {
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     background-color: $nav-footer-color;
-    margin-top: 50px;
+    margin-top: auto;
+}
+
+.footer p {
+    color: $font-color;
 }
 
 .footer a {
-    color: #222;
+    color: $font-color;
 }
 
 /* Typografy */
@@ -151,6 +164,7 @@ h3,
 h4,
 h5,
 h6 {
+    margin-top: 1em;
     margin-bottom: 0.6em;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
@@ -158,10 +172,15 @@ h6 {
 
 img {
     max-width: 100%;
+    filter: opacity(75%);
+}
+
+.icon {
+    width: 30px;
+}
+
+.social {
+    display: flex;
 }
 
 @import 'media-queries';
-
-.main {
-    background-color: yellow;
-}
