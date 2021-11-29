@@ -54,7 +54,7 @@ Tidningens seriösa profil förmedlas också av den avskalade designen i allmän
 Både rubriker och ingresser (brödtext) använder sig av serif-typsnitt. Valet av serif-typsnitt i klassiskt snitt kan kopplas till den seriösa profilen, och till den traditionella designen av dagstidningar med mycket och tät text.
 
 <h3>Dagens Industri</h3>
-![Snapshot från Dagens Industri](%assets_url%/img/di2.png)
+![Snapshot från Dagens Industri](%assets_url%/img/di.png)
 <br>
 <br>
 Dagens Industris hemsida är snarlik SvDs i sin layout, men uppfyller inte i samma grad de karaktärsdrag för minimalism som nämns ovan - här finns fler olika UI-element, fler färger, och mindre negativt utrymme. Sidan använder sig av ett mer komplicerat och mer närvarande färgschema, enligt nedan:
@@ -79,7 +79,7 @@ Den omättade röda färgen används på motsvarande sätt som hos SvD som hemsi
 
 <h3>Aftonbladet</h3>
 <br>
-![Snapshot från Aftonbladet](%assets_url%/img/AB.png)
+![Snapshot från Aftonbladet](%assets_url%/img/ab.png)
 <br>
 <br>
 Aftonbladets sida använder sig återigen av samma layout, men av en än mer aggresiv typografi, många UI-element, och en stark färgsättning:
