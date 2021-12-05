@@ -1,0 +1,70 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="centering-div">
+    <div class="main" role="main">
+        {{ content }}
+        <div class="gallery-div">
+            <a href="{{ base_url }}/image/gallery/monkey.jpg" target="_blank">
+                <picture>
+                    <source media="(min-width: 1201px)" srcset="{{ base_url }}/image/gallery/monkey.jpg&w=300&h=300&crop-to-fit">
+                    <img src="{{ base_url }}/image/gallery/monkey.jpg&w=250&h=250&crop-to-fit" alt="A monkey">
+                </picture>
+            </a>
+            <a href="{{ base_url }}/image/gallery/flamingo.jpg" target="_blank">
+                <picture>
+                    <source media="(min-width: 1201px)" srcset="{{ base_url }}/image/gallery/flamingo.jpg&w=300&h=300&crop-to-fit">
+                    <img src="{{ base_url }}/image/gallery/flamingo.jpg&w=250&h=250&crop-to-fit" alt="A flamingo">
+                </picture>
+            </a>
+            <a href="{{ base_url }}/image/gallery/cat.jpg" target="_blank">
+                <picture>
+                    <source media="(min-width: 1201px)" srcset="{{ base_url }}/image/gallery/cat.jpg&w=300&h=300&crop-to-fit">
+                    <img src="{{ base_url }}/image/gallery/cat.jpg&w=250&h=250&crop-to-fit" alt="A cat">
+                </picture>
+            </a>
+            <a href="{{ base_url }}/image/gallery/elk.jpg" target="_blank">
+                <picture>
+                    <source media="(min-width: 1201px)" srcset="{{ base_url }}/image/gallery/elk.jpg&w=300&h=300&crop-to-fit">
+                    <img src="{{ base_url }}/image/gallery/elk.jpg&w=250&h=250&crop-to-fit" alt="A elk">
+                </picture>
+            </a>
+            <a href="{{ base_url }}/image/gallery/fish.jpg" target="_blank">
+                <picture>
+                    <source media="(min-width: 1201px)" srcset="{{ base_url }}/image/gallery/fish.jpg&w=300&h=300&crop-to-fit">
+                    <img src="{{ base_url }}/image/gallery/fish.jpg&w=250&h=250&crop-to-fit" alt="A fish">
+                </picture>
+            </a>
+            <a href="{{ base_url }}/image/gallery/puffin.jpg" target="_blank">
+                <picture>
+                    <source media="(min-width: 1201px)" srcset="{{ base_url }}/image/gallery/puffin.jpg&w=300&h=300&crop-to-fit">
+                    <img src="{{ base_url }}/image/gallery/puffin.jpg&w=250&h=250&crop-to-fit" alt="A puffin">
+                </picture>
+            </a>
+            <a href="{{ base_url }}/image/gallery/fox.jpg" target="_blank">
+                <picture>
+                    <source media="(min-width: 1201px)" srcset="{{ base_url }}/image/gallery/fox.jpg&w=300&h=300&crop-to-fit">
+                    <img src="{{ base_url }}/image/gallery/fox.jpg&w=250&h=250&crop-to-fit" alt="A fox">
+                </picture>
+            </a>
+            <a href="{{ base_url }}/image/gallery/collard.jpg" target="_blank">
+                <picture>
+                    <source media="(min-width: 1201px)" srcset="{{ base_url }}/image/gallery/collard.jpg&w=300&h=300&crop-to-fit">
+                    <img src="{{ base_url }}/image/gallery/collard.jpg&w=250&h=250&crop-to-fit" alt="A collard">
+                </picture>
+            </a>
+            <a href="{{ base_url }}/image/gallery/frog.jpg" target="_blank">
+                <picture>
+                    <source media="(min-width: 1201px)" srcset="{{ base_url }}/image/gallery/frog.jpg&w=300&h=300&crop-to-fit">
+                    <img src="{{ base_url }}/image/gallery/frog.jpg&w=250&h=250&crop-to-fit" alt="A frog">
+                </picture>
+            </a>
+        </div>
+    </div> 
+</div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

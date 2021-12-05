@@ -14,6 +14,21 @@
         padding-left: 0;
     }
 
+    .nav-bar-list {
+        text-align: center;
+        height: auto;
+    }
+
+    li {
+        float: none;
+        display: inline-block;
+    }
+    
+    li a {
+        padding: 5px;
+        font-size: 14px;
+    }
+
     .main {
         margin-left: 50px;
     }
@@ -39,8 +54,6 @@
     }
 
     .technology-sidebar {
-        display: none;
+        display: none;  
     }
 }
-
-

@@ -1,0 +1,29 @@
+.gallery-div {
+    width: 950px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.gallery-div {
+    img {
+        margin: 0 !important;
+    }
+}
+
+.gallery-div h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+@media (max-width: 1200px) {
+    .gallery-div {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    
+    .gallery-div h1 {
+        grid-column: 1; 
+    }
+}

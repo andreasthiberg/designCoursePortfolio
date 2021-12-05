@@ -11,6 +11,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import 'report';
 @import 'technologies';
+@import 'analysis';
+@import 'gallery';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 body {
@@ -52,6 +54,10 @@ body {
     flex: 0 0 auto;
 }
 
+.centering-div {
+    text-align: center;
+}
+
 /* Header */
 
 .site-header {
@@ -70,7 +76,8 @@ body {
 
 /* Navbar */
 
-ul {
+
+.nav-bar-list {
     list-style-type: none;
     margin: 0;
     padding: 0;

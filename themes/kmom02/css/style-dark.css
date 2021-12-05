@@ -6536,6 +6536,7 @@ pre code {
 }
 
 .technology-sidebar {
+  margin-top: 30px;
   font-size: 20px;
   padding: 10px;
   width: 200px;
@@ -6551,6 +6552,43 @@ pre code {
   color: #fff;
 }
 
+.spreadsheet {
+  width: 100%;
+  height: 100%;
+}
+
+.spreadsheet-div {
+  max-width: 1000px;
+  height: 500px;
+}
+
+.gallery-div {
+  width: 950px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 100px;
+}
+
+.gallery-div img {
+  margin: 0 !important;
+}
+
+.gallery-div h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+@media (max-width: 1200px) {
+  .gallery-div {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .gallery-div h1 {
+    grid-column: 1;
+  }
+}
 body {
   background-color: #1f2125;
   min-height: 100vh;
@@ -6603,7 +6641,7 @@ body {
 }
 
 /* Navbar */
-ul {
+.nav-bar-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6728,6 +6766,21 @@ img {
   .nav-bar {
     text-align: center;
     padding-left: 0;
+  }
+
+  .nav-bar-list {
+    text-align: center;
+    height: auto;
+  }
+
+  li {
+    float: none;
+    display: inline-block;
+  }
+
+  li a {
+    padding: 5px;
+    font-size: 14px;
   }
 
   .main {
