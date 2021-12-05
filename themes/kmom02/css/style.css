@@ -6632,6 +6632,8 @@ body {
   max-width: 1000px;
   color: #000;
   margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .main img {
   margin-top: 30px;
