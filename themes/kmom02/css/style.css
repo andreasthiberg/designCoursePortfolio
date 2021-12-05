@@ -6579,6 +6579,24 @@ pre code {
   justify-self: center;
 }
 
+.embed-container {
+  margin-top: 100px;
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 1200px) {
   .gallery-div {
     grid-template-columns: 1fr;
@@ -6611,9 +6629,7 @@ body {
 .main {
   flex: 1 0 auto;
   display: inline-block;
-  margin-left: 100px;
   max-width: 1000px;
-  padding-right: 50px;
   color: #000;
   margin-bottom: 50px;
 }
@@ -6782,10 +6798,6 @@ img {
   li a {
     padding: 5px;
     font-size: 14px;
-  }
-
-  .main {
-    margin-left: 50px;
   }
 
   /* Technologies page */
