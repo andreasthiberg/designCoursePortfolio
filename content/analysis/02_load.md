@@ -13,7 +13,7 @@ Metod
 
 All information lagras i ett Google-Kalkylark, som kan ses nedan. För varje webbplats körs tre olika sidor först genom Google Pagespeed-verktyget, både i mobil- och i desktop-version. Här antecknas betyget som verktyget ger till varje sida, och vilka förslag till förbättringar som beräknas ha störst effekt. Varje sida mäts sedan via network-filen i devtools. Där noterar jag sidans laddningstid, antalet resurser som laddas, samt sidans totala storlek. Varje sida mäts tre gånger, och snittet av resultaten antecknas. Möjliga förbättringar av varje webbplats diskuteras sedan.
 
-Resultat
+Resultat    
 -----------------------
 
 <h3>Data från undersökningen</h3>
@@ -39,7 +39,7 @@ Folkhälsomyndighetens webbplats är mindre i sin totala storlek än Försäkrin
 
 <h3>Region skåne</h3>
 <br>
-![Snapshot från Folkhälsomyndigheten](%assets_url%/img/skane.png)
+![Snapshot från Region Skåne](%assets_url%/img/skane.png)
 <br>
 <br>
 

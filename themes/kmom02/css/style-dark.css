@@ -6567,7 +6567,11 @@ pre code {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  margin-top: 100px;
+  margin-top: 50px;
+  border: solid;
+  padding: 20px;
+  border-color: #026053;
+  border-width: 5px;
 }
 
 .gallery-div img {
@@ -6607,6 +6611,46 @@ pre code {
     grid-column: 1;
   }
 }
+.background-shape {
+  width: 800px;
+  height: 800px;
+  transform: rotate(45deg);
+  background-color: #a52a2a;
+  position: absolute;
+  top: 100px;
+  left: 170px;
+}
+
+.shape-container {
+  width: 400px;
+  height: 900px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 200px;
+  z-index: -1;
+}
+
+.background-shape2 {
+  width: 300px;
+  height: 300px;
+  transform: rotate(45deg);
+  background-color: #a52a2a;
+  position: absolute;
+  top: 0;
+  right: 120px;
+}
+
+.shape-container2 {
+  z-index: -1;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 300px;
+}
+
 body {
   background-color: #1f2125;
   min-height: 100vh;
@@ -6617,7 +6661,6 @@ body {
   border: 0 none;
   margin: 0;
   padding: 0;
-  color: rgba(255, 255, 255, 0.877);
 }
 
 /* Placement */
@@ -6633,13 +6676,23 @@ body {
   max-width: 1000px;
   color: rgba(255, 255, 255, 0.877);
   margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .main img {
   margin-top: 30px;
 }
+.main p {
+  background-color: #1a1a1a;
+  padding: 20px;
+}
 
 .footer {
   flex: 0 0 auto;
+}
+
+.centering-div {
+  text-align: center;
 }
 
 /* Header */
@@ -6671,7 +6724,7 @@ li {
 
 li a {
   display: block;
-  color: rgba(255, 255, 255, 0.877);
+  color: #fff;
   text-align: center;
   padding: 15px;
   text-decoration: none;
@@ -6715,17 +6768,16 @@ li a:hover {
 }
 
 .footer p {
-  color: rgba(255, 255, 255, 0.877);
+  color: #fff;
 }
 
 .footer a {
-  color: rgba(255, 255, 255, 0.877);
+  color: #fff;
 }
 
 /* Typografy */
 * {
   font-family: "Roboto", sans-serif;
-  color: rgba(255, 255, 255, 0.877);
 }
 
 body {
@@ -6758,7 +6810,6 @@ h6 {
 
 img {
   max-width: 100%;
-  filter: opacity(75%);
 }
 
 .icon {
